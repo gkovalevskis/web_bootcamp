@@ -3,4 +3,14 @@
 }
 .red-color{
     color: red;
+    background-color: yellowgreen;
+}
+body{
+    background-color: silver;
+}
+.paragraph{
+    color: blue;
+    padding: 3%;
+    text-align: center;
+    background-color: teal;
 }
