@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+nav{
+    background-color: aquamarine;
+    width: 100%;
+    /* height: 50px; */
+}
+ul{
+    display: none;
+    list-style: none;
+}
+.menu{
+    float: right;
+    line-height: 50px;
+}
+.menu:hover ul{
+    display: block;
+}
