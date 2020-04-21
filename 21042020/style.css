@@ -1,0 +1,33 @@
+#nav{
+    height: 75px;
+    background-color: darkgray;
+    position: relative;
+}
+#nav > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+}
+#nav > ul > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#nav > ul > li > a{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+#nav > ul > li > a:hover{
+    color:red;
+    border-radius: 0;
+}
+.selected{
+    background-color: darksalmon !important;
+}

@@ -17,6 +17,6 @@ ul{
     float: right;
     line-height: 50px;
 }
-.menu:hover ul{
+.menu:hover > ul{
     display: block;
 }
