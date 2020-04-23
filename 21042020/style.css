@@ -22,7 +22,7 @@
     font-size: 25px;
     background-color: white;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 #nav > ul > li > a:hover{
     color:red;
@@ -30,4 +30,9 @@
 }
 .selected{
     background-color: darksalmon !important;
+}
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
