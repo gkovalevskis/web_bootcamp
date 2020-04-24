@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24042020</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <H1 id="heading">Hello world!</H1>
+        <button onclick="changeHeading()">Change H1 tag info</button>
+        <h2 id="text" onmouseover="changeText()">JOKOHAMA</h2>
+        <h2 onclick="changeAll(this)">JOKOHAMA</h2>
+        <h2 onclick="changeAll(this)">JOKOHAMA</h2>
+        
+        <div id="after-this"> 
+            <h3 onclick="addElement()">WISHING LIST</h3>
+            <h2 id="heading" onclick="removeElement()">JOKOHAMA</h2>
+            
+        </div>
+        <h3 onclick="reloadPage()">HEIHO</h3>
+        
+    </div>
+    <form name="myform" onsubmit="return validateForm(this)"> 
+        <h1>This is some contact form!</h1>
+        <input type="text" name="uname" placeholder="Your name .." required><br>
+        <input type="text" name="surname" placeholder="Your surname .." required><br>
+        <textarea name="comments" id="comments" cols="50" rows="5" required></textarea><br>
+        <input type="submit" name="submit" value="SUBMIT!">
+    </form>
+</body>
+</html>
