@@ -25,4 +25,3 @@ console.log(cars);
 console.log(temperature);
 console.log(text);
 console.log(record);
-// izveidot - visu tipu mainīgos
