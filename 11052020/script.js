@@ -21,8 +21,10 @@ let cars = "Audi, BMW, Saab, Vw"
 console.log(cars.charAt(6));
 
 let num = "Pēteris";
+console.log(num);
 console.log(typeof num);
-num2 = Number(num);
+let num2 = Number(num);
+console.log(num2);
 console.log(typeof num2);
 
 let otherCars = ["Audi", "BMW", "Saab", "Vw"];
