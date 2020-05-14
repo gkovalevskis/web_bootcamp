@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="el_on_key_two.js"></script>
+    <script src="el_on_mouse_click.js"></script>
+    <script src="el_on_mouse_dclick.js"></script>
+    <script src="el_on_mouse_over.js"></script>
+    <link rel="stylesheet" href="el_css.css">
+    <title>14052020</title>
+</head>
+<body>
+    <div class="column-content" id="my-left">
+        <button class="btn-big" onclick="elOnMouseClick()">Click me!</button>
+        <p id="hello-world-left"></p>
+    </div>
+    <div class="column-content" id="my-center-left">
+        <h1 class="make-red" id="hello-world-center-left">Point mouse over me!</h1>
+    </div>
+    <div class="column-content" id="my-center-right">
+        <input id="hello-world-center-right" class="btn-big" type="text" onkeydown="generateElement()" onkeyup="removeElement()">
+    </div>
+    <div class="column-content" id="my-right">
+        <h1 id="hello-world-right" onclick="elOnClick(this)" ondblclick="elOnDbClick(this)">Hello world!</h1>
+    </div>
+</body>
+</html>

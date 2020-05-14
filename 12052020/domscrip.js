@@ -23,4 +23,5 @@ window.onload = () => {
     const myName = 'Girts';
     const myCity = 'Riga';
     console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
-}
+    let x = document.getElementsByClassName("something")[0];//to access first class = "something" element
+} 
