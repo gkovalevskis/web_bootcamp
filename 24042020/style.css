@@ -1,3 +1,12 @@
 .make-red{
     color: red;
 }
+form {
+    display: inline-grid;
+    text-align: center;
+  }
+  .focused:focus {
+    box-shadow: 0 0 30px red !important;
+    -moz-box-shadow: 0 0 30px red !important;
+    -webkit-box-shadow: 0 0 30px red !important;
+  }

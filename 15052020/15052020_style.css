@@ -1,0 +1,9 @@
+form {
+    display: inline-grid;
+    text-align: center;
+  }
+  .focused:focus {
+    box-shadow: 0 0 3px red !important;
+    -moz-box-shadow: 0 0 3px red !important;
+    -webkit-box-shadow: 0 0 3px red !important;
+  }

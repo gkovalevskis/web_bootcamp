@@ -22,15 +22,36 @@ function removeElement(){
 function reloadPage(){
     location.reload();
 }
+// function validateForm(form){
+//     let userName = form["uname"].value;
+//     let surname = form["surname"].value;
+//     if (userName === "" || userName === null){
+//         alert("You do not have a name!");
+//         return false;
+//     }
+//     if (surname === ""){
+//         alert("You do not have a surname!");
+//         return false;
+//     }
+//     return true;
+// }
 function validateForm(form){
     let userName = form["uname"].value;
     let surname = form["surname"].value;
-    if (userName === ""){
-        alert("You do not have a name!");
+    if (userName === "" || userName === null){
+        let x = form["uname"];
+        x.classList.add("focused")
+        x.focus();
+        x.setCustomValidity("Name: Please fill out your name!");
+        x.reportValidity();
         return false;
     }
-    if (surname === ""){
-        alert("You do not have a surname!");
+    if (surname === "" || surname === null){
+        let y = form["surname"];
+        y.classList.add("focused")
+        y.focus();
+        y.setCustomValidity("Surname: Please fill out your surname!");
+        y.reportValidity();
         return false;
     }
     return true;
