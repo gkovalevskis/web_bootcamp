@@ -12,7 +12,7 @@ function game(elem){
         return 'scissors';    
     }
   };
-  function determineWinner(userChoice, computerChoice){ 
+  function determineWinner(userChoice, ComputerChoice){ 
     if (userChoice === computerChoice){
         alert('The game is a tie');
       return 'The game is a tie';
