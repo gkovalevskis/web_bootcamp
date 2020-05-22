@@ -1,0 +1,22 @@
+Name: Pēteris
+Surname: Rautmanis
+Age: 22
+Fav_Color: purple
+
+
+Name: Jānis
+Surname: Līkais
+Age: 41
+Fav_Color: red
+
+
+Name: Jogita
+Surname: Vanda
+Age: 33
+Fav_Color: blue
+
+
+Name: Kārlis
+Surname: Kings
+Age: 11
+Fav_Color: Yellow
