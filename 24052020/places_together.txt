@@ -1,0 +1,75 @@
+Country: "Italy"
+City: "Rome"
+
+Country: "Luxembourg"
+City: "Luxembourg"
+
+Country: "Belgium"
+City:  "Brussels"
+
+Country: "Denmark"
+City: "Copenhagen"
+
+Country: "Finland"
+City: "Helsinki"
+
+Country: "France" 
+City:  "Paris"
+
+Country: "Slovakia"
+City: "Bratislava"
+
+Country: "Slovenia"
+City: "Ljubljana"
+
+Country: "Germany" 
+City:  "Berlin"
+
+Country: "Greece" 
+City:  "Athens"
+
+Country: "Ireland"
+City: "Dublin"
+
+Country: "Netherlands"
+City: "Amsterdam"
+
+Country: "Portugal"
+City: "Lisbon"
+
+Country: "Spain"
+City: "Madrid"
+
+Country: "Sweden"
+City: "Stockholm"
+
+Country: "United Kingdom"
+City: "London"
+
+Country: "Cyprus"
+City: "Nicosia"
+
+Country: "Lithuania"
+City: "Vilnius"
+
+Country: "Czech Republic"
+City: "Prague"
+
+Country: "Estonia"
+City: "Tallin"
+
+Country: "Hungary"
+City: "Budapest"
+
+Country: "Latvia"
+City: "Riga"
+
+Country: "Malta"
+City: "Valetta"
+
+Country: "Austria" 
+City:  "Vienna"
+
+Country: "Poland"
+City: "Warsaw"
+

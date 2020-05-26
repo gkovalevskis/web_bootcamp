@@ -13,7 +13,7 @@ function factorial(number){
     }
     return number * factorial(number - 1);
 }
-factorial(3);
+console.log(factorial(3));
 //in FUNCTION block you can access to var, const, 
 //let. But not outside of function block.
 //in IF & LOOP block you can access to var, const, 
