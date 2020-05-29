@@ -1,0 +1,24 @@
+//SERACH SPECIFIC STRING IN EMAIL ALL TEXT
+SELECT * FROM `person_table` WHERE email LIKE "%com%" 
+
+//INSERT NEW VALUE
+INSERT INTO `person_table` (`uname`, `surname`, `email`) 
+VALUES ('Baiba', 'Koka', 'kolka@roolz.com')
+
+//BACK TICK ON MAC
+"option" + "~"
+
+//CHANGE VALUE TO ANOTHER
+UPDATE `person_table` SET uname = "Pēteris" WHERE uname = "Laimonis"
+
+//WITH "AND" "OR" WE CAN USE IT LIKE IF STATEMENT
+SELECT * FROM `person_table` WHERE email LIKE "%com%"  AND uname LIKE "a"
+
+//DELITING INFO FROM TABLE
+DELETE FROM `person_table` WHERE uname = "Kārlis"
+
+//DELETE TABLE
+DROP TABLE `person_table`
+
+//INSERT NEW DATABASE
+CREATE DATABASE `second_database`
