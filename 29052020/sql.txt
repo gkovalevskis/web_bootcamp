@@ -5,6 +5,15 @@ SELECT * FROM `person_table` WHERE email LIKE "%com%"
 INSERT INTO `person_table` (`uname`, `surname`, `email`) 
 VALUES ('Baiba', 'Koka', 'kolka@roolz.com')
 
+//ADD INFO ON EMPTY FIELD TO EXISTING ROW
+UPDATE `person_table` SET `age`= 22 WHERE `uname` = "Pēteris" AND `surname` = "Jansons";
+
+//ADD NEW COLUMN TO TABLE WITH ACCEPT EMPTY FIELDS FOR STRINGS
+ALTER TABLE `person_table` ADD `code` VARCHAR (255) NULL;
+
+//ADD NEW COLUMN TO TABLE WITH ACCEPT EMPTY FIELDS FOR NUMBERS
+ALTER TABLE `person_table` ADD `code` INT NULL;
+
 //BACK TICK ON MAC
 "option" + "~"
 
