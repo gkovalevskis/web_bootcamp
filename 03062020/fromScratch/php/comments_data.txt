@@ -1,0 +1,30 @@
+Name: s
+Surname: s
+E-mail: s@s.lv
+Comments: sde
+
+Name: de
+Surname: se
+E-mail: sd@sd.lv
+Comments: dert
+
+Name: dr
+Surname: se
+E-mail: s@s.lv
+Comments: jadajada
+
+Name: s
+Surname: s
+E-mail: s@s.lv
+Comments: dasdfa
+
+Name: Juris
+Surname: Vaivods
+E-mail: juris@vaivods.lv
+Comments: COOLL
+
+Name: Jānis
+Surname: Viens
+E-mail: vien@janis.lv
+Comments: Nice present for wife.
+
