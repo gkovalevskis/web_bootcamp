@@ -1,0 +1,69 @@
+header {
+    text-align: center;
+    margin-top: 5px;
+  } 
+  
+  h1 {
+    font-size: 36px;
+    padding: 15px;
+    color: #8c6b48;
+    background-color: white;
+  }
+   
+  th {
+    border: 2px solid #8c6b48;
+  }
+  table {
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }  
+  td {
+    border: 2px solid #8c6b48;
+    width: 300px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    bottom: 5px;
+    background-color: #242f44;
+    z-index: 5;
+    position: relative;
+  }
+  footer h3 {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #242f44;
+  }
+  
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    height: 800px;
+  }
+td > input[type=submit]{
+    border-radius: 20px;
+    width: 20%;
+}
+  
+  .left {
+    width: 150px;
+  }
+  .width80{
+    width: 80%;
+  }
+  @media screen and  (max-width: 1170px){
+    h2{
+      font-size: small;
+    }
+    h3{
+      font-size: small;
+    }
+    td > input[type=submit]{
+      width: 60%;
+      padding: 0;
+    }
+  }
+  

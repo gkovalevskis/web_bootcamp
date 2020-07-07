@@ -1,0 +1,58 @@
+#images{
+    width: 36%;
+    float: left;
+    border-style: outset;
+}
+#text{
+    width: 36%;
+    float: right;
+    border-style: outset;
+    height: 459px;
+}
+#large{
+    height: 2000px;
+}
+@media screen and  (max-width: 1250px){
+    img{
+        width: 145px;
+        height: 145px;
+    }
+    #text{
+        height: 214px;
+    }
+    #large{
+        height: 1100px;
+    }    
+    div{
+        padding: 20px;
+    }
+    a > img{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and  (max-width: 1170px){
+    img{
+        width: 90px;
+        height: 90px;
+    }
+    #images{
+        width: 30%;;
+    }
+    #text{
+        height: 141px;
+        overflow: auto;
+    }
+    #large{
+        display: grid;
+        height: 700px;
+        font-size: x-small;
+    }  
+    h1{
+        font-size: large;
+    }
+    a > img{
+        width: 35px;
+        height: 35px;
+    }
+}

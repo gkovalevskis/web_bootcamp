@@ -1,0 +1,40 @@
+  canvas {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  .choicesContainer{
+    padding: 0px;
+  }
+  .choices{
+    float: left;
+    text-align: center;
+    width: 24%;
+  }
+  .center{
+    padding: 0px;
+    text-align: center;
+  }
+  .winner{
+    text-align: center;
+    text-size-adjust: 50px;
+    padding: 100px;
+  }
+  @media screen and  (max-width: 1437px){
+    .gamePhoto{
+      width: 100px;
+      height: 100px;
+    }
+    .choices{
+      width: 0%;
+      text-align: center;
+    }
+    .center{
+      display: inline-grid;
+    }
+    .winner{
+      text-align: center;
+      text-size-adjust: 50px;
+      padding: 0px;
+    }
+  }
